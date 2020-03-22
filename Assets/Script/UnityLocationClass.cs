@@ -1,7 +1,5 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
-using UniRx;
-using UniRx.Triggers;
+﻿using System.Collections;
+using UnityEngine;
 
 public class UnityLocationClass : MonoBehaviour
 {
@@ -14,5 +12,10 @@ public class UnityLocationClass : MonoBehaviour
     void Start()
     {
         Input.location.Start();
+    }
+
+    private IEnumerator StartLocation()
+    {
+        yield break;
     }
 }
