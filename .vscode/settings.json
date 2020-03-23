@@ -43,6 +43,7 @@
         "**/*.meta":true,
         "**/*.prefab":true,
         "**/*.unity":true,
+        "**/*.config":true,
         "build/":true,
         "Build/":true,
         "Library/":true,
@@ -52,5 +53,6 @@
         "ProjectSettings/":true,
         "temp/":true,
         "Temp/":true
-    }
+    },
+    "workbench.editor.enablePreview": false
 }
