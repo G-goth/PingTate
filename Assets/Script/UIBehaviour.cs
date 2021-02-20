@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using UniRx;
-using UniRx.Triggers;
+/*using UniRx;
+using UniRx.Triggers;*/
 
 public class UIBehaviour : MonoBehaviour
 {
@@ -15,9 +15,9 @@ public class UIBehaviour : MonoBehaviour
         var isLocateText = mainCanvas.GetComponentInChildren<Text>();
 
 
-        var updateText = this.UpdateAsObservable()
+        /*var updateText = this.UpdateAsObservable()
             .Subscribe(_ => {
                 isLocateText.text = location.IsEnabledByUserToStringProp;
-                });
+                });*/
     }
 }
